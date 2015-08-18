@@ -1,0 +1,20 @@
+{
+  "name": "DoveBox",
+  "main": "app.html",
+  "window": {
+    "toolbar": true,
+    "show": false,
+    "frame": true,
+    "position": "center",
+    "width": 500,
+    "height": 500
+  },
+  "dependencies": {
+    "twitter": "^1.2.5",
+    "oauth": "^0.9.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winneras/DoveBox"
+  }
+}
