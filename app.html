@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Camera Test</title>
-    <link rel="stylesheet" href="app.css">
+
+<head>
+    <title>DoveBox</title>
+    <link rel="stylesheet" href="themes/app.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+</head>
+
+<body>
+    <div ng-app="doveBox" ng-controller="dboxCtrl">
+        <button ng-click="login()">Login</button>
+        <button ng-click="getTweets()">Get Tweets</button>
+        <ul>
+
+        </ul>
+    </div>
     <script src="app.js"></script>
-  </head>
-  <body>
-    <div id="keys"></div>
-  </body>
+</body>
+
 </html>
